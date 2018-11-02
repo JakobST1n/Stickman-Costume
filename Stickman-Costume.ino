@@ -10,13 +10,13 @@
 #define IN_MODE 4           // Pressing this increments 'mode' by one
 #define IN_ADJ  3           // This button adjusts the brightness
 
-int CMode          = 2;     // This is just the current mode
+int CMode          = 0;     // This is just the current mode
 int ExistingModes  = 4;     // This is the number of modes that are implemented
 // Used for saving button state
 bool IN_ADJ_STATE  = false; //
 bool IN_MODE_STATE = false; //
 // These are for the general pwm-frequency (not all modes care)
-int CBrightness    = 255;    // The brightness of the strip, between '0' and '255'
+int CBrightness    = 50;    // The brightness of the strip, between '0' and '255'
 int CDimDirection  = 0;     // Used to know if the brightness should be increasing or decreasing based on the button press
 // These are used by the strobe-effect
 int CStrobeRevs    = 0;     // A running counter for the strobe-light
