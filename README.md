@@ -17,3 +17,4 @@ This was made for a halloween-costume. The code runs on an attiny85, mainly to b
 
 # Schematic
 ![Schematic](https://raw.githubusercontent.com/JakobST1n/Stickman-Costume/master/StickmanCostume.png)
+`R2` and `R3` should be around __1K__.
