@@ -47,7 +47,7 @@ void loop() {
         }
     }
     // If 'Adjust-button' is pressed
-    if (digitalRead(DIMPIN) == HIGH) {
+    if (digitalRead(IN_ADJ) == HIGH) {
         if (CDimDirection == 1) { CBrightness++; }
         if (CDimDirection == 0) { CBrightness--; }
         if (CBrightness >= 255) { CDimDirection = 0; }
@@ -55,7 +55,7 @@ void loop() {
     }
     
     // Do animation-things
-    switch (var) {
+    switch (CMode) {
         case 0:  // Static
             analogWrite(OUT_PWM, CBrightness); 
             break;
