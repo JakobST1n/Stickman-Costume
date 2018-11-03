@@ -2,10 +2,10 @@
 This was made for a halloween-costume. The code runs on an attiny85, mainly to be able to dim the lights down.
 
 # Usage
-- Upload the code to the attiny
-- Solder together the board
-- Make the costume
-- Have fun!
+1) Make the costume
+2) Solder together the board
+3) Upload the code to the atiny
+4) Have fun!
 ## Operation
 - Hold button `SW2` to change brightness/ pwm frequency.
 - Click button `SW1` to go through the modes.
@@ -28,3 +28,6 @@ I did not use a full-size through-hole voltage-regulator, but a AMS1117-3.3 on t
 Since i didn't have a 8-pin din IC socket i used a 14-pin one, but that does not make a difference either. 
 
 The red lines on the far right, is just an explanation of where i soldered my In-Out wires, They are not actually wires, but i soldered wires in where they start. This is the "same" thing as `J1` and `J2` on the scematic.
+
+# Todo
+- I have a problem where it looks like it returns to mode `0`. I Haven't really figured out if this is due to bad code or bad soldering (or both). But there are a lot of improvements that could be done to the code, reagrding checking button presses.
