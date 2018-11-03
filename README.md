@@ -31,3 +31,4 @@ The red lines on the far right, is just an explanation of where i soldered my In
 
 # Todo
 - I have a problem where it looks like it returns to mode `0`. I Haven't really figured out if this is due to bad code or bad soldering (or both). But there are a lot of improvements that could be done to the code, reagrding checking button presses.
+- If you want to do this project, please add a reasonably sized cap (ceramic maybe) near the attiny. I think the problems above are from the chip reseting due to power spikes.
